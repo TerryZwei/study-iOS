@@ -11,9 +11,14 @@
 #import "MessageViewController.h"
 #import "MeViewController.h"
 #import "DiscoverViewController.h"
+#import "UIImage+WB.h"
+#import "WBTabBar.h"
 
 @interface TabBarViewController ()
-
+/**
+ *  自定义tabbar
+ */
+@property (nonatomic,weak) WBTabBar *customTabBar;
 @end
 
 @implementation TabBarViewController
@@ -23,11 +28,42 @@
 
     [super viewDidLoad];
     
+    //初始化tabbar
+    [self setupTabber];
     //初始化所有子控制器
     [self setupAllChildViewControllers];
     
+   
     
 }
+
+//view即将出现执行的函数
+- (void)viewDidAppear:(BOOL)animated
+{
+
+    [super viewDidAppear:animated];
+    NSLog(@"%@",self.tabBar.subviews);
+    
+    //删除原有的tabBar的button
+    for (UIView *child in self.tabBar.subviews) {
+        
+        if ([child isKindOfClass:[UIControl class]]) {
+            [child removeFromSuperview];
+        }
+        
+    }
+}
+-(void)setupTabber
+{
+
+    WBTabBar *customTabBar = [[WBTabBar alloc] init];
+    
+    customTabBar.frame = self.tabBar.bounds;
+    [self.tabBar addSubview:customTabBar];
+
+    self.customTabBar = customTabBar;
+}
+
 /**
  *  初始化所有子控制器
  */
@@ -69,14 +105,14 @@
 //    childVc.tabBarItem.title = title;
 //    childVc.navigationItem.title = title;
     childVc.title = title;
-    childVc.tabBarItem.image = [UIImage imageNamed:imageName];
-    childVc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    childVc.tabBarItem.image = [UIImage imageWithName:imageName];
+    childVc.tabBarItem.selectedImage = [[UIImage imageWithName:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //2.包装一个导航控制器
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:childVc];
     [self addChildViewController:nav];
 
-    
-
+    //3.添加tabbar内部的按钮
+    [self.customTabBar addTabBarButtonWithItem:childVc.tabBarItem];
 }
 
 @end
