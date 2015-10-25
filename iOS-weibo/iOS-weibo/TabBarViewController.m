@@ -11,6 +11,7 @@
 #import "MessageViewController.h"
 #import "MeViewController.h"
 #import "DiscoverViewController.h"
+#import "UIImage+WB.h"
 
 @interface TabBarViewController ()
 
@@ -69,14 +70,13 @@
 //    childVc.tabBarItem.title = title;
 //    childVc.navigationItem.title = title;
     childVc.title = title;
-    childVc.tabBarItem.image = [UIImage imageNamed:imageName];
-    childVc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    childVc.tabBarItem.image = [UIImage imageWithName:imageName];
+    childVc.tabBarItem.selectedImage = [[UIImage imageWithName:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //2.包装一个导航控制器
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:childVc];
     [self addChildViewController:nav];
 
-    
-
+        
 }
 
 @end
