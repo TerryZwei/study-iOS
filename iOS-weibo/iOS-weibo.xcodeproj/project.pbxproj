@@ -20,6 +20,8 @@
 		DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB51BDCED3F00812967 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DEAE8EB91BDCED5200812967 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DEAE8ED41BDD012300812967 /* UIImage+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED31BDD012300812967 /* UIImage+WB.m */; settings = {ASSET_TAGS = (); }; };
+		DEAE8EDA1BDD07F000812967 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED91BDD07F000812967 /* WBTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		DEAE8EDD1BDD177F00812967 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDC1BDD177F00812967 /* TabBarButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		DEAE8ED21BDD012300812967 /* UIImage+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WB.h"; sourceTree = "<group>"; };
 		DEAE8ED31BDD012300812967 /* UIImage+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WB.m"; sourceTree = "<group>"; };
+		DEAE8ED81BDD07F000812967 /* WBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBar.h; sourceTree = "<group>"; };
+		DEAE8ED91BDD07F000812967 /* WBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBar.m; sourceTree = "<group>"; };
+		DEAE8EDB1BDD177F00812967 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		DEAE8EDC1BDD177F00812967 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +210,10 @@
 		DEAE8EBF1BDCF78D00812967 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEAE8ED81BDD07F000812967 /* WBTabBar.h */,
+				DEAE8ED91BDD07F000812967 /* WBTabBar.m */,
+				DEAE8EDB1BDD177F00812967 /* TabBarButton.h */,
+				DEAE8EDC1BDD177F00812967 /* TabBarButton.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -485,6 +495,8 @@
 				DEAE8E6E1BDCE40400812967 /* AppDelegate.m in Sources */,
 				DEAE8ED41BDD012300812967 /* UIImage+WB.m in Sources */,
 				DEAE8E6B1BDCE40400812967 /* main.m in Sources */,
+				DEAE8EDA1BDD07F000812967 /* WBTabBar.m in Sources */,
+				DEAE8EDD1BDD177F00812967 /* TabBarButton.m in Sources */,
 				DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */,
 				DEAE8EB31BDCED2300812967 /* MessageViewController.m in Sources */,
 			);
