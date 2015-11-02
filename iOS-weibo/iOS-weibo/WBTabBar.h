@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@class WBTabBar;
+@protocol WBTabBarDelegate <NSObject>
+
+@optional
+
+- (void)tabBar:(WBTabBar *)tabBar didSelectedButtonFrom:(int)from to:(int)to;
+
+@end
 
 @interface WBTabBar : UIView
 - (void)addTabBarButtonWithItem:(UITabBarItem *)item;
-
+@property (nonatomic,weak) id<WBTabBarDelegate> delegate;
 @end
