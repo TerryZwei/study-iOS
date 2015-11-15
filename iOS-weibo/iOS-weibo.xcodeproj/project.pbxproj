@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE41EF2D1BE2096D00F1642A /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF2C1BE2096D00F1642A /* Common.m */; };
+		DE41EF301BE20CF800F1642A /* UIBarButtonItem+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF2F1BE20CF800F1642A /* UIBarButtonItem+WB.m */; };
+		DE41EF331BE2154800F1642A /* WBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF321BE2154800F1642A /* WBSearchBar.m */; };
+		DE41EF361BE21FFD00F1642A /* WBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF351BE21FFD00F1642A /* WBTitleButton.m */; };
 		DEAE8E6B1BDCE40400812967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E6A1BDCE40400812967 /* main.m */; };
 		DEAE8E6E1BDCE40400812967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E6D1BDCE40400812967 /* AppDelegate.m */; };
-		DEAE8E711BDCE40400812967 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E701BDCE40400812967 /* ViewController.m */; };
 		DEAE8E741BDCE40400812967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAE8E721BDCE40400812967 /* Main.storyboard */; };
 		DEAE8E761BDCE40400812967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAE8E751BDCE40400812967 /* Assets.xcassets */; };
 		DEAE8E791BDCE40400812967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAE8E771BDCE40400812967 /* LaunchScreen.storyboard */; };
 		DEAE8E841BDCE40400812967 /* iOS_weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E831BDCE40400812967 /* iOS_weiboTests.m */; };
 		DEAE8E8F1BDCE40400812967 /* iOS_weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E8E1BDCE40400812967 /* iOS_weiboUITests.m */; };
-		DEAE8E9E1BDCEB9300812967 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E9D1BDCEB9300812967 /* TabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB01BDCED0D00812967 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EAF1BDCED0D00812967 /* MeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB31BDCED2300812967 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB21BDCED2300812967 /* MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB51BDCED3F00812967 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB91BDCED5200812967 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DEAE8E9E1BDCEB9300812967 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E9D1BDCEB9300812967 /* TabBarViewController.m */; };
+		DEAE8EB01BDCED0D00812967 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EAF1BDCED0D00812967 /* MeViewController.m */; };
+		DEAE8EB31BDCED2300812967 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB21BDCED2300812967 /* MessageViewController.m */; };
+		DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB51BDCED3F00812967 /* HomeViewController.m */; };
+		DEAE8EB91BDCED5200812967 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */; };
+		DEAE8ED41BDD012300812967 /* UIImage+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED31BDD012300812967 /* UIImage+WB.m */; };
+		DEAE8EDA1BDD07F000812967 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED91BDD07F000812967 /* WBTabBar.m */; };
+		DEAE8EDD1BDD177F00812967 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDC1BDD177F00812967 /* TabBarButton.m */; };
+		DEAE8EE01BDE1ED500812967 /* WBBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDF1BDE1ED500812967 /* WBBadgeButton.m */; };
+		DEAE8EE31BE0DCCE00812967 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EE21BE0DCCE00812967 /* WBNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE41EF2B1BE2096D00F1642A /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DE41EF2C1BE2096D00F1642A /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		DE41EF2E1BE20CF800F1642A /* UIBarButtonItem+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WB.h"; sourceTree = "<group>"; };
+		DE41EF2F1BE20CF800F1642A /* UIBarButtonItem+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WB.m"; sourceTree = "<group>"; };
+		DE41EF311BE2154800F1642A /* WBSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSearchBar.h; sourceTree = "<group>"; };
+		DE41EF321BE2154800F1642A /* WBSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSearchBar.m; sourceTree = "<group>"; };
+		DE41EF341BE21FFD00F1642A /* WBTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTitleButton.h; sourceTree = "<group>"; };
+		DE41EF351BE21FFD00F1642A /* WBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTitleButton.m; sourceTree = "<group>"; };
 		DEAE8E661BDCE40400812967 /* iOS-weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-weibo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAE8E6A1BDCE40400812967 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEAE8E6C1BDCE40400812967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEAE8E6D1BDCE40400812967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DEAE8E6F1BDCE40400812967 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEAE8E701BDCE40400812967 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DEAE8E731BDCE40400812967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEAE8E751BDCE40400812967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEAE8E781BDCE40400812967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +80,16 @@
 		DEAE8EB51BDCED3F00812967 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		DEAE8EB71BDCED5200812967 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		DEAE8ED21BDD012300812967 /* UIImage+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WB.h"; sourceTree = "<group>"; };
+		DEAE8ED31BDD012300812967 /* UIImage+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WB.m"; sourceTree = "<group>"; };
+		DEAE8ED81BDD07F000812967 /* WBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBar.h; sourceTree = "<group>"; };
+		DEAE8ED91BDD07F000812967 /* WBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBar.m; sourceTree = "<group>"; };
+		DEAE8EDB1BDD177F00812967 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		DEAE8EDC1BDD177F00812967 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
+		DEAE8EDE1BDE1ED500812967 /* WBBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBadgeButton.h; sourceTree = "<group>"; };
+		DEAE8EDF1BDE1ED500812967 /* WBBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBadgeButton.m; sourceTree = "<group>"; };
+		DEAE8EE11BE0DCCE00812967 /* WBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavigationController.h; sourceTree = "<group>"; };
+		DEAE8EE21BE0DCCE00812967 /* WBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,25 +140,12 @@
 		DEAE8E681BDCE40400812967 /* iOS-weibo */ = {
 			isa = PBXGroup;
 			children = (
-				DEAE8E6C1BDCE40400812967 /* AppDelegate.h */,
-				DEAE8E6D1BDCE40400812967 /* AppDelegate.m */,
-				DEAE8E6F1BDCE40400812967 /* ViewController.h */,
-				DEAE8E701BDCE40400812967 /* ViewController.m */,
+				DEAE8EBA1BDCF6CD00812967 /* Classes */,
 				DEAE8E721BDCE40400812967 /* Main.storyboard */,
 				DEAE8E751BDCE40400812967 /* Assets.xcassets */,
 				DEAE8E771BDCE40400812967 /* LaunchScreen.storyboard */,
 				DEAE8E7A1BDCE40400812967 /* Info.plist */,
 				DEAE8E691BDCE40400812967 /* Supporting Files */,
-				DEAE8E9C1BDCEB9300812967 /* TabBarViewController.h */,
-				DEAE8E9D1BDCEB9300812967 /* TabBarViewController.m */,
-				DEAE8EAE1BDCED0D00812967 /* MeViewController.h */,
-				DEAE8EAF1BDCED0D00812967 /* MeViewController.m */,
-				DEAE8EB11BDCED2300812967 /* MessageViewController.h */,
-				DEAE8EB21BDCED2300812967 /* MessageViewController.m */,
-				DEAE8EB41BDCED3F00812967 /* HomeViewController.h */,
-				DEAE8EB51BDCED3F00812967 /* HomeViewController.m */,
-				DEAE8EB71BDCED5200812967 /* DiscoverViewController.h */,
-				DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */,
 			);
 			path = "iOS-weibo";
 			sourceTree = "<group>";
@@ -163,6 +174,219 @@
 				DEAE8E901BDCE40400812967 /* Info.plist */,
 			);
 			path = "iOS-weiboUITests";
+			sourceTree = "<group>";
+		};
+		DEAE8EBA1BDCF6CD00812967 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8ECF1BDCF8A000812967 /* Other */,
+				DEAE8EC51BDCF7E800812967 /* Message */,
+				DEAE8EC41BDCF7E100812967 /* Me */,
+				DEAE8EC31BDCF7D700812967 /* Discover */,
+				DEAE8EBC1BDCF71100812967 /* Home */,
+				DEAE8EBB1BDCF6E200812967 /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DEAE8EBB1BDCF6E200812967 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EBF1BDCF78D00812967 /* View */,
+				DEAE8EBE1BDCF78100812967 /* Model */,
+				DEAE8EBD1BDCF76B00812967 /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DEAE8EBC1BDCF71100812967 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EC21BDCF7B600812967 /* Model */,
+				DEAE8EC11BDCF7AF00812967 /* View */,
+				DEAE8EC01BDCF7A000812967 /* Controller */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DEAE8EBD1BDCF76B00812967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8E9C1BDCEB9300812967 /* TabBarViewController.h */,
+				DEAE8E9D1BDCEB9300812967 /* TabBarViewController.m */,
+				DEAE8EE11BE0DCCE00812967 /* WBNavigationController.h */,
+				DEAE8EE21BE0DCCE00812967 /* WBNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DEAE8EBE1BDCF78100812967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEAE8EBF1BDCF78D00812967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8ED81BDD07F000812967 /* WBTabBar.h */,
+				DEAE8ED91BDD07F000812967 /* WBTabBar.m */,
+				DEAE8EDB1BDD177F00812967 /* TabBarButton.h */,
+				DEAE8EDC1BDD177F00812967 /* TabBarButton.m */,
+				DEAE8EDE1BDE1ED500812967 /* WBBadgeButton.h */,
+				DEAE8EDF1BDE1ED500812967 /* WBBadgeButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEAE8EC01BDCF7A000812967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EB41BDCED3F00812967 /* HomeViewController.h */,
+				DEAE8EB51BDCED3F00812967 /* HomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DEAE8EC11BDCF7AF00812967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE41EF341BE21FFD00F1642A /* WBTitleButton.h */,
+				DE41EF351BE21FFD00F1642A /* WBTitleButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEAE8EC21BDCF7B600812967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEAE8EC31BDCF7D700812967 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8ECE1BDCF85000812967 /* View */,
+				DEAE8ECD1BDCF84B00812967 /* Model */,
+				DEAE8ECC1BDCF84500812967 /* Controller */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		DEAE8EC41BDCF7E100812967 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8ECB1BDCF83300812967 /* Model */,
+				DEAE8ECA1BDCF82D00812967 /* View */,
+				DEAE8EC91BDCF82600812967 /* Controller */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		DEAE8EC51BDCF7E800812967 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EC81BDCF7FF00812967 /* Model */,
+				DEAE8EC71BDCF7FA00812967 /* View */,
+				DEAE8EC61BDCF7F100812967 /* Controller */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		DEAE8EC61BDCF7F100812967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EB11BDCED2300812967 /* MessageViewController.h */,
+				DEAE8EB21BDCED2300812967 /* MessageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DEAE8EC71BDCF7FA00812967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEAE8EC81BDCF7FF00812967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEAE8EC91BDCF82600812967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EAE1BDCED0D00812967 /* MeViewController.h */,
+				DEAE8EAF1BDCED0D00812967 /* MeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DEAE8ECA1BDCF82D00812967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEAE8ECB1BDCF83300812967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEAE8ECC1BDCF84500812967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8EB71BDCED5200812967 /* DiscoverViewController.h */,
+				DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DEAE8ECD1BDCF84B00812967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEAE8ECE1BDCF85000812967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE41EF311BE2154800F1642A /* WBSearchBar.h */,
+				DE41EF321BE2154800F1642A /* WBSearchBar.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEAE8ECF1BDCF8A000812967 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8ED11BDD007400812967 /* Category */,
+				DEAE8E6C1BDCE40400812967 /* AppDelegate.h */,
+				DEAE8E6D1BDCE40400812967 /* AppDelegate.m */,
+				DE41EF2B1BE2096D00F1642A /* Common.h */,
+				DE41EF2C1BE2096D00F1642A /* Common.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		DEAE8ED11BDD007400812967 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DEAE8ED21BDD012300812967 /* UIImage+WB.h */,
+				DEAE8ED31BDD012300812967 /* UIImage+WB.m */,
+				DE41EF2E1BE20CF800F1642A /* UIBarButtonItem+WB.h */,
+				DE41EF2F1BE20CF800F1642A /* UIBarButtonItem+WB.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +456,7 @@
 				TargetAttributes = {
 					DEAE8E651BDCE40400812967 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9MY9ZFET42;
 					};
 					DEAE8E7E1BDCE40400812967 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -295,12 +520,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAE8EE31BE0DCCE00812967 /* WBNavigationController.m in Sources */,
+				DE41EF361BE21FFD00F1642A /* WBTitleButton.m in Sources */,
 				DEAE8EB01BDCED0D00812967 /* MeViewController.m in Sources */,
 				DEAE8EB91BDCED5200812967 /* DiscoverViewController.m in Sources */,
+				DEAE8EE01BDE1ED500812967 /* WBBadgeButton.m in Sources */,
 				DEAE8E9E1BDCEB9300812967 /* TabBarViewController.m in Sources */,
-				DEAE8E711BDCE40400812967 /* ViewController.m in Sources */,
 				DEAE8E6E1BDCE40400812967 /* AppDelegate.m in Sources */,
+				DEAE8ED41BDD012300812967 /* UIImage+WB.m in Sources */,
 				DEAE8E6B1BDCE40400812967 /* main.m in Sources */,
+				DEAE8EDA1BDD07F000812967 /* WBTabBar.m in Sources */,
+				DE41EF301BE20CF800F1642A /* UIBarButtonItem+WB.m in Sources */,
+				DE41EF331BE2154800F1642A /* WBSearchBar.m in Sources */,
+				DEAE8EDD1BDD177F00812967 /* TabBarButton.m in Sources */,
+				DE41EF2D1BE2096D00F1642A /* Common.m in Sources */,
 				DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */,
 				DEAE8EB31BDCED2300812967 /* MessageViewController.m in Sources */,
 			);
@@ -442,7 +675,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "iOS-weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-weibo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,7 +690,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "iOS-weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-weibo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +767,7 @@
 				DEAE8E951BDCE40500812967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEAE8E961BDCE40500812967 /* Build configuration list for PBXNativeTarget "iOS-weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +776,7 @@
 				DEAE8E981BDCE40500812967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEAE8E991BDCE40500812967 /* Build configuration list for PBXNativeTarget "iOS-weiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +785,7 @@
 				DEAE8E9B1BDCE40500812967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TabBarButton.h
 //  iOS-weibo
 //
 //  Created by terry on 15/10/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface TabBarButton : UIButton
+@property (nonatomic,strong) UITabBarItem *item;
 @end
-
