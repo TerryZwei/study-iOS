@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE41EF2D1BE2096D00F1642A /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF2C1BE2096D00F1642A /* Common.m */; settings = {ASSET_TAGS = (); }; };
-		DE41EF301BE20CF800F1642A /* UIBarButtonItem+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF2F1BE20CF800F1642A /* UIBarButtonItem+WB.m */; settings = {ASSET_TAGS = (); }; };
-		DE41EF331BE2154800F1642A /* WBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF321BE2154800F1642A /* WBSearchBar.m */; settings = {ASSET_TAGS = (); }; };
-		DE41EF361BE21FFD00F1642A /* WBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF351BE21FFD00F1642A /* WBTitleButton.m */; settings = {ASSET_TAGS = (); }; };
+		DE41EF2D1BE2096D00F1642A /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF2C1BE2096D00F1642A /* Common.m */; };
+		DE41EF301BE20CF800F1642A /* UIBarButtonItem+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF2F1BE20CF800F1642A /* UIBarButtonItem+WB.m */; };
+		DE41EF331BE2154800F1642A /* WBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF321BE2154800F1642A /* WBSearchBar.m */; };
+		DE41EF361BE21FFD00F1642A /* WBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41EF351BE21FFD00F1642A /* WBTitleButton.m */; };
 		DEAE8E6B1BDCE40400812967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E6A1BDCE40400812967 /* main.m */; };
 		DEAE8E6E1BDCE40400812967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E6D1BDCE40400812967 /* AppDelegate.m */; };
 		DEAE8E741BDCE40400812967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAE8E721BDCE40400812967 /* Main.storyboard */; };
@@ -18,16 +18,16 @@
 		DEAE8E791BDCE40400812967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAE8E771BDCE40400812967 /* LaunchScreen.storyboard */; };
 		DEAE8E841BDCE40400812967 /* iOS_weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E831BDCE40400812967 /* iOS_weiboTests.m */; };
 		DEAE8E8F1BDCE40400812967 /* iOS_weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E8E1BDCE40400812967 /* iOS_weiboUITests.m */; };
-		DEAE8E9E1BDCEB9300812967 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E9D1BDCEB9300812967 /* TabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB01BDCED0D00812967 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EAF1BDCED0D00812967 /* MeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB31BDCED2300812967 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB21BDCED2300812967 /* MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB51BDCED3F00812967 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EB91BDCED5200812967 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8ED41BDD012300812967 /* UIImage+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED31BDD012300812967 /* UIImage+WB.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EDA1BDD07F000812967 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED91BDD07F000812967 /* WBTabBar.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EDD1BDD177F00812967 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDC1BDD177F00812967 /* TabBarButton.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EE01BDE1ED500812967 /* WBBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDF1BDE1ED500812967 /* WBBadgeButton.m */; settings = {ASSET_TAGS = (); }; };
-		DEAE8EE31BE0DCCE00812967 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EE21BE0DCCE00812967 /* WBNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		DEAE8E9E1BDCEB9300812967 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8E9D1BDCEB9300812967 /* TabBarViewController.m */; };
+		DEAE8EB01BDCED0D00812967 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EAF1BDCED0D00812967 /* MeViewController.m */; };
+		DEAE8EB31BDCED2300812967 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB21BDCED2300812967 /* MessageViewController.m */; };
+		DEAE8EB61BDCED3F00812967 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB51BDCED3F00812967 /* HomeViewController.m */; };
+		DEAE8EB91BDCED5200812967 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EB81BDCED5200812967 /* DiscoverViewController.m */; };
+		DEAE8ED41BDD012300812967 /* UIImage+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED31BDD012300812967 /* UIImage+WB.m */; };
+		DEAE8EDA1BDD07F000812967 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8ED91BDD07F000812967 /* WBTabBar.m */; };
+		DEAE8EDD1BDD177F00812967 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDC1BDD177F00812967 /* TabBarButton.m */; };
+		DEAE8EE01BDE1ED500812967 /* WBBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EDF1BDE1ED500812967 /* WBBadgeButton.m */; };
+		DEAE8EE31BE0DCCE00812967 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE8EE21BE0DCCE00812967 /* WBNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -456,6 +456,7 @@
 				TargetAttributes = {
 					DEAE8E651BDCE40400812967 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9MY9ZFET42;
 					};
 					DEAE8E7E1BDCE40400812967 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -674,8 +675,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "iOS-weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-weibo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -687,8 +690,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "iOS-weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-weibo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

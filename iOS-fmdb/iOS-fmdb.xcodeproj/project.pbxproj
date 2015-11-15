@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE1FCE01BF70BD4008828A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FCDF1BF70BD4008828A6 /* main.m */; };
+		DEE1FCE31BF70BD4008828A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FCE21BF70BD4008828A6 /* AppDelegate.m */; };
+		DEE1FCE61BF70BD4008828A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FCE51BF70BD4008828A6 /* ViewController.m */; };
+		DEE1FCE91BF70BD4008828A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE1FCE71BF70BD4008828A6 /* Main.storyboard */; };
+		DEE1FCEB1BF70BD4008828A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE1FCEA1BF70BD4008828A6 /* Assets.xcassets */; };
+		DEE1FCEE1BF70BD4008828A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE1FCEC1BF70BD4008828A6 /* LaunchScreen.storyboard */; };
+		DEE1FCF91BF70BD4008828A6 /* iOS_fmdbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FCF81BF70BD4008828A6 /* iOS_fmdbTests.m */; };
+		DEE1FD041BF70BD4008828A6 /* iOS_fmdbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD031BF70BD4008828A6 /* iOS_fmdbUITests.m */; };
+		DEE1FD1D1BF70D69008828A6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD131BF70D69008828A6 /* FMDatabase.m */; };
+		DEE1FD1E1BF70D69008828A6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD151BF70D69008828A6 /* FMDatabaseAdditions.m */; };
+		DEE1FD1F1BF70D69008828A6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD171BF70D69008828A6 /* FMDatabasePool.m */; };
+		DEE1FD201BF70D69008828A6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD191BF70D69008828A6 /* FMDatabaseQueue.m */; };
+		DEE1FD211BF70D69008828A6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD1C1BF70D69008828A6 /* FMResultSet.m */; };
+		DEE1FD231BF70FE4008828A6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE1FD221BF70FE4008828A6 /* libsqlite3.tbd */; };
+		DEE1FD261BF719CC008828A6 /* MenuViewCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD251BF719CC008828A6 /* MenuViewCellTableViewController.m */; };
+		DEE1FD2A1BF719EB008828A6 /* CenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD281BF719EB008828A6 /* CenterController.m */; };
+		DEE1FD2B1BF719EB008828A6 /* CenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE1FD291BF719EB008828A6 /* CenterController.xib */; };
+		DEE1FD2E1BF723B4008828A6 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE1FD2D1BF723B4008828A6 /* UIView+Size.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE1FCF51BF70BD4008828A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE1FCD31BF70BD4008828A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE1FCDA1BF70BD4008828A6;
+			remoteInfo = "iOS-fmdb";
+		};
+		DEE1FD001BF70BD4008828A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE1FCD31BF70BD4008828A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE1FCDA1BF70BD4008828A6;
+			remoteInfo = "iOS-fmdb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE1FCDB1BF70BD4008828A6 /* iOS-fmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-fmdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE1FCDF1BF70BD4008828A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEE1FCE11BF70BD4008828A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEE1FCE21BF70BD4008828A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEE1FCE41BF70BD4008828A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEE1FCE51BF70BD4008828A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEE1FCE81BF70BD4008828A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE1FCEA1BF70BD4008828A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE1FCED1BF70BD4008828A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE1FCEF1BF70BD4008828A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE1FCF41BF70BD4008828A6 /* iOS-fmdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-fmdbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE1FCF81BF70BD4008828A6 /* iOS_fmdbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_fmdbTests.m; sourceTree = "<group>"; };
+		DEE1FCFA1BF70BD4008828A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE1FCFF1BF70BD4008828A6 /* iOS-fmdbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-fmdbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE1FD031BF70BD4008828A6 /* iOS_fmdbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_fmdbUITests.m; sourceTree = "<group>"; };
+		DEE1FD051BF70BD4008828A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE1FD121BF70D69008828A6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DEE1FD131BF70D69008828A6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DEE1FD141BF70D69008828A6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DEE1FD151BF70D69008828A6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DEE1FD161BF70D69008828A6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DEE1FD171BF70D69008828A6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DEE1FD181BF70D69008828A6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DEE1FD191BF70D69008828A6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DEE1FD1A1BF70D69008828A6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DEE1FD1B1BF70D69008828A6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DEE1FD1C1BF70D69008828A6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DEE1FD221BF70FE4008828A6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DEE1FD241BF719CC008828A6 /* MenuViewCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewCellTableViewController.h; sourceTree = "<group>"; };
+		DEE1FD251BF719CC008828A6 /* MenuViewCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewCellTableViewController.m; sourceTree = "<group>"; };
+		DEE1FD271BF719EB008828A6 /* CenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterController.h; sourceTree = "<group>"; };
+		DEE1FD281BF719EB008828A6 /* CenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterController.m; sourceTree = "<group>"; };
+		DEE1FD291BF719EB008828A6 /* CenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CenterController.xib; sourceTree = "<group>"; };
+		DEE1FD2C1BF723B4008828A6 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		DEE1FD2D1BF723B4008828A6 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE1FCD81BF70BD4008828A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1FD231BF70FE4008828A6 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE1FCF11BF70BD4008828A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE1FCFC1BF70BD4008828A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE1FCD21BF70BD4008828A6 = {
+			isa = PBXGroup;
+			children = (
+				DEE1FD221BF70FE4008828A6 /* libsqlite3.tbd */,
+				DEE1FCDD1BF70BD4008828A6 /* iOS-fmdb */,
+				DEE1FCF71BF70BD4008828A6 /* iOS-fmdbTests */,
+				DEE1FD021BF70BD4008828A6 /* iOS-fmdbUITests */,
+				DEE1FCDC1BF70BD4008828A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE1FCDC1BF70BD4008828A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1FCDB1BF70BD4008828A6 /* iOS-fmdb.app */,
+				DEE1FCF41BF70BD4008828A6 /* iOS-fmdbTests.xctest */,
+				DEE1FCFF1BF70BD4008828A6 /* iOS-fmdbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE1FCDD1BF70BD4008828A6 /* iOS-fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1FCE11BF70BD4008828A6 /* AppDelegate.h */,
+				DEE1FCE21BF70BD4008828A6 /* AppDelegate.m */,
+				DEE1FCE41BF70BD4008828A6 /* ViewController.h */,
+				DEE1FCE51BF70BD4008828A6 /* ViewController.m */,
+				DEE1FCE71BF70BD4008828A6 /* Main.storyboard */,
+				DEE1FCEA1BF70BD4008828A6 /* Assets.xcassets */,
+				DEE1FCEC1BF70BD4008828A6 /* LaunchScreen.storyboard */,
+				DEE1FCEF1BF70BD4008828A6 /* Info.plist */,
+				DEE1FD111BF70D69008828A6 /* fmdb */,
+				DEE1FCDE1BF70BD4008828A6 /* Supporting Files */,
+				DEE1FD241BF719CC008828A6 /* MenuViewCellTableViewController.h */,
+				DEE1FD251BF719CC008828A6 /* MenuViewCellTableViewController.m */,
+				DEE1FD271BF719EB008828A6 /* CenterController.h */,
+				DEE1FD281BF719EB008828A6 /* CenterController.m */,
+				DEE1FD291BF719EB008828A6 /* CenterController.xib */,
+				DEE1FD2C1BF723B4008828A6 /* UIView+Size.h */,
+				DEE1FD2D1BF723B4008828A6 /* UIView+Size.m */,
+			);
+			path = "iOS-fmdb";
+			sourceTree = "<group>";
+		};
+		DEE1FCDE1BF70BD4008828A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1FCDF1BF70BD4008828A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE1FCF71BF70BD4008828A6 /* iOS-fmdbTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1FCF81BF70BD4008828A6 /* iOS_fmdbTests.m */,
+				DEE1FCFA1BF70BD4008828A6 /* Info.plist */,
+			);
+			path = "iOS-fmdbTests";
+			sourceTree = "<group>";
+		};
+		DEE1FD021BF70BD4008828A6 /* iOS-fmdbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1FD031BF70BD4008828A6 /* iOS_fmdbUITests.m */,
+				DEE1FD051BF70BD4008828A6 /* Info.plist */,
+			);
+			path = "iOS-fmdbUITests";
+			sourceTree = "<group>";
+		};
+		DEE1FD111BF70D69008828A6 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1FD121BF70D69008828A6 /* FMDatabase.h */,
+				DEE1FD131BF70D69008828A6 /* FMDatabase.m */,
+				DEE1FD141BF70D69008828A6 /* FMDatabaseAdditions.h */,
+				DEE1FD151BF70D69008828A6 /* FMDatabaseAdditions.m */,
+				DEE1FD161BF70D69008828A6 /* FMDatabasePool.h */,
+				DEE1FD171BF70D69008828A6 /* FMDatabasePool.m */,
+				DEE1FD181BF70D69008828A6 /* FMDatabaseQueue.h */,
+				DEE1FD191BF70D69008828A6 /* FMDatabaseQueue.m */,
+				DEE1FD1A1BF70D69008828A6 /* FMDB.h */,
+				DEE1FD1B1BF70D69008828A6 /* FMResultSet.h */,
+				DEE1FD1C1BF70D69008828A6 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE1FCDA1BF70BD4008828A6 /* iOS-fmdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE1FD081BF70BD4008828A6 /* Build configuration list for PBXNativeTarget "iOS-fmdb" */;
+			buildPhases = (
+				DEE1FCD71BF70BD4008828A6 /* Sources */,
+				DEE1FCD81BF70BD4008828A6 /* Frameworks */,
+				DEE1FCD91BF70BD4008828A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-fmdb";
+			productName = "iOS-fmdb";
+			productReference = DEE1FCDB1BF70BD4008828A6 /* iOS-fmdb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE1FCF31BF70BD4008828A6 /* iOS-fmdbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE1FD0B1BF70BD4008828A6 /* Build configuration list for PBXNativeTarget "iOS-fmdbTests" */;
+			buildPhases = (
+				DEE1FCF01BF70BD4008828A6 /* Sources */,
+				DEE1FCF11BF70BD4008828A6 /* Frameworks */,
+				DEE1FCF21BF70BD4008828A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE1FCF61BF70BD4008828A6 /* PBXTargetDependency */,
+			);
+			name = "iOS-fmdbTests";
+			productName = "iOS-fmdbTests";
+			productReference = DEE1FCF41BF70BD4008828A6 /* iOS-fmdbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEE1FCFE1BF70BD4008828A6 /* iOS-fmdbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE1FD0E1BF70BD4008828A6 /* Build configuration list for PBXNativeTarget "iOS-fmdbUITests" */;
+			buildPhases = (
+				DEE1FCFB1BF70BD4008828A6 /* Sources */,
+				DEE1FCFC1BF70BD4008828A6 /* Frameworks */,
+				DEE1FCFD1BF70BD4008828A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE1FD011BF70BD4008828A6 /* PBXTargetDependency */,
+			);
+			name = "iOS-fmdbUITests";
+			productName = "iOS-fmdbUITests";
+			productReference = DEE1FCFF1BF70BD4008828A6 /* iOS-fmdbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE1FCD31BF70BD4008828A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = terry;
+				TargetAttributes = {
+					DEE1FCDA1BF70BD4008828A6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9MY9ZFET42;
+					};
+					DEE1FCF31BF70BD4008828A6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9MY9ZFET42;
+						TestTargetID = DEE1FCDA1BF70BD4008828A6;
+					};
+					DEE1FCFE1BF70BD4008828A6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9MY9ZFET42;
+						TestTargetID = DEE1FCDA1BF70BD4008828A6;
+					};
+				};
+			};
+			buildConfigurationList = DEE1FCD61BF70BD4008828A6 /* Build configuration list for PBXProject "iOS-fmdb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE1FCD21BF70BD4008828A6;
+			productRefGroup = DEE1FCDC1BF70BD4008828A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE1FCDA1BF70BD4008828A6 /* iOS-fmdb */,
+				DEE1FCF31BF70BD4008828A6 /* iOS-fmdbTests */,
+				DEE1FCFE1BF70BD4008828A6 /* iOS-fmdbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE1FCD91BF70BD4008828A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1FCEE1BF70BD4008828A6 /* LaunchScreen.storyboard in Resources */,
+				DEE1FCEB1BF70BD4008828A6 /* Assets.xcassets in Resources */,
+				DEE1FD2B1BF719EB008828A6 /* CenterController.xib in Resources */,
+				DEE1FCE91BF70BD4008828A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE1FCF21BF70BD4008828A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE1FCFD1BF70BD4008828A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE1FCD71BF70BD4008828A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1FCE61BF70BD4008828A6 /* ViewController.m in Sources */,
+				DEE1FD1F1BF70D69008828A6 /* FMDatabasePool.m in Sources */,
+				DEE1FD2A1BF719EB008828A6 /* CenterController.m in Sources */,
+				DEE1FCE31BF70BD4008828A6 /* AppDelegate.m in Sources */,
+				DEE1FD201BF70D69008828A6 /* FMDatabaseQueue.m in Sources */,
+				DEE1FCE01BF70BD4008828A6 /* main.m in Sources */,
+				DEE1FD1D1BF70D69008828A6 /* FMDatabase.m in Sources */,
+				DEE1FD211BF70D69008828A6 /* FMResultSet.m in Sources */,
+				DEE1FD261BF719CC008828A6 /* MenuViewCellTableViewController.m in Sources */,
+				DEE1FD2E1BF723B4008828A6 /* UIView+Size.m in Sources */,
+				DEE1FD1E1BF70D69008828A6 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE1FCF01BF70BD4008828A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1FCF91BF70BD4008828A6 /* iOS_fmdbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE1FCFB1BF70BD4008828A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1FD041BF70BD4008828A6 /* iOS_fmdbUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE1FCF61BF70BD4008828A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE1FCDA1BF70BD4008828A6 /* iOS-fmdb */;
+			targetProxy = DEE1FCF51BF70BD4008828A6 /* PBXContainerItemProxy */;
+		};
+		DEE1FD011BF70BD4008828A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE1FCDA1BF70BD4008828A6 /* iOS-fmdb */;
+			targetProxy = DEE1FD001BF70BD4008828A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE1FCE71BF70BD4008828A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE1FCE81BF70BD4008828A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE1FCEC1BF70BD4008828A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE1FCED1BF70BD4008828A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE1FD061BF70BD4008828A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEE1FD071BF70BD4008828A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE1FD091BF70BD4008828A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-fmdb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-fmdb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE1FD0A1BF70BD4008828A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-fmdb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-fmdb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEE1FD0C1BF70BD4008828A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-fmdbTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-fmdbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-fmdb.app/iOS-fmdb";
+			};
+			name = Debug;
+		};
+		DEE1FD0D1BF70BD4008828A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-fmdbTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-fmdbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-fmdb.app/iOS-fmdb";
+			};
+			name = Release;
+		};
+		DEE1FD0F1BF70BD4008828A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-fmdbUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-fmdbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-fmdb";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DEE1FD101BF70BD4008828A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-fmdbUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.iOS-fmdbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-fmdb";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE1FCD61BF70BD4008828A6 /* Build configuration list for PBXProject "iOS-fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1FD061BF70BD4008828A6 /* Debug */,
+				DEE1FD071BF70BD4008828A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE1FD081BF70BD4008828A6 /* Build configuration list for PBXNativeTarget "iOS-fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1FD091BF70BD4008828A6 /* Debug */,
+				DEE1FD0A1BF70BD4008828A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE1FD0B1BF70BD4008828A6 /* Build configuration list for PBXNativeTarget "iOS-fmdbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1FD0C1BF70BD4008828A6 /* Debug */,
+				DEE1FD0D1BF70BD4008828A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE1FD0E1BF70BD4008828A6 /* Build configuration list for PBXNativeTarget "iOS-fmdbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE1FD0F1BF70BD4008828A6 /* Debug */,
+				DEE1FD101BF70BD4008828A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE1FCD31BF70BD4008828A6 /* Project object */;
+}
